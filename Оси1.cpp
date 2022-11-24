@@ -54,18 +54,5 @@ int main() {
 			std::cout << std::right << std::setw(7) << result[i][j];
 		}
 	}
-	/*vector<thread> thr(4);
-	for (int i = 0; i < 4; i++) {
-		thr.emplace_back(Multiplication, size, matrix1, matrix2);
-	}*/
-	//pthread_t threads[MAX_THREAD];
-	//vector<thread> thr(4);
-	//for (int i = 0; i < 4; i++) {
-	//	thr.emplace_back(Multiplication, 4, matrix1, matrix2);
-	//}
-	//thread first_thread(Multiplication, size, matrix1, matrix2);	
-	//thread second_thread(Multiplication, size, matrix1, matrix2);
-	//first_thread.join();
-	//second_thread.join();
 	return 0;
 }
