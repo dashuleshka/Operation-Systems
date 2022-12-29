@@ -24,7 +24,7 @@ bool checkPrime(int n) {
 
 void PrimeCheckVec(vector <int>& vec, vector <bool>& res) {
     int temp;
-    while (1) {
+  while (true) {
         unique_lock<mutex> guard(m);
         if (iter == vec.size()) {
             return;
